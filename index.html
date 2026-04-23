@@ -104,7 +104,7 @@
 <div class="container">
   <img src="https://monkeymansilly1.github.io/Sainsbury-sgen/sainsburys-logo-png-transparent.png" alt="Sainsbury's Logo" />
 
-  <input type="text" id="productCode" placeholder="Enter 13-digit barcode" maxlength="13"
+  <input type="text" id="productCode" placeholder="Enter 13 or 8 digit barcode" maxlength="13"
          oninput="this.value=this.value.replace(/\\D/g,'').slice(0,13)" />
 
   <div>
@@ -121,7 +121,7 @@
 
   <div class="barcode-frame">
     <canvas id="barcodeCanvas" width="400" height="150"></canvas>
-    <div class="watermark">monkeymansilly1.github.io</div>
+    <div class="watermark">easyP55</div>
   </div>
 
   <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
